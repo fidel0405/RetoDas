@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  body {
+    align-items: center;
+    font-size: small;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+
+  .btn-css {
+    border: 2px solid gray;
+    background-color: gray;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    align-self: center;
+    margin: auto;
+  }
+ 
+  .success {
+    border-color: gray;
+    color: white;
+  }
+
+  .success:hover {
+    background-color: skyblue;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
